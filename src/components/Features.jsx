@@ -31,6 +31,8 @@ const Features = () => {
     )
   }, []);
 
+  
+
   return (
     <section style={{backgroundColor: 'orange'}} className="h-full common-padding bg-zinc relative overflow-hidden">
       <div className="screen-max-wdith">

@@ -29,22 +29,22 @@ const Hero = () => {
 
   return (
     <section style={{backgroundColor: 'pink'}} className="w-full nav-height bg-black relative">
-      <div className="h-5/6 w-full flex-center flex-col">
+      <div className="h-full w-full flex-center flex-col bg-red-500">
         <p id="hero" className="hero-title">iPhone 15 Pro</p>
         <div className="md:w-10/12 w-9/12">
           <video className="pointer-events-none" autoPlay muted playsInline={true} key={videoSrc}>
             <source src={videoSrc} type="video/mp4" />
           </video>
         </div>
-      </div>
-
-      <div
+        <div
         id="cta"
-        className="flex flex-col items-center opacity-0 translate-y-20"
+        className="absolute bottom-0 flex flex-col items-center opacity-0 translate-y-20"
       >
         <a href="#highlights" className="btn">Scroll Now</a>
         <p className="font-normal text-xl">Namesta World!</p>
       </div>
+      </div>
+
     </section>
   )
 }

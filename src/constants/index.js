@@ -11,6 +11,29 @@ import {
 
 export const navLists = ["Services", "Solutions", "About", "Contact"];
 
+export const navLinks = [
+  {
+    id: 1,
+    name: 'Services',
+    href: '#services',
+  },
+  {
+    id: 2,
+    name: 'About',
+    href: '#about',
+  },
+  {
+    id: 3,
+    name: 'Solutions',
+    href: '#solutions',
+  },
+  {
+    id: 4,
+    name: 'Contact',
+    href: '#contact',
+  },
+];
+
 export const hightlightsSlides = [
   {
     id: 1,
